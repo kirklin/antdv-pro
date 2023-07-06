@@ -8,6 +8,7 @@ const menuData = [
     redirect: '/dashboard/analysis',
     path: '/dashboard',
     name: 'Dashboard',
+    locale: 'menu.dashboard',
   },
   {
     id: 2,
@@ -17,6 +18,7 @@ const menuData = [
     path: '/dashboard/analysis',
     name: 'DashboardAnalysis',
     keepAlive: true,
+    locale: 'menu.dashboard.analysis',
   },
   {
     id: 3,
@@ -27,6 +29,7 @@ const menuData = [
     redirect: '/form/basic',
     path: '/form',
     name: 'Form',
+    locale: 'menu.form',
   },
   {
     id: 4,
@@ -36,6 +39,8 @@ const menuData = [
     path: '/form/basic',
     name: 'FormBasic',
     keepAlive: true,
+    locale: 'menu.form.basic-form',
+
   },
   {
     id: 5,
@@ -46,6 +51,8 @@ const menuData = [
     redirect: '/link/iframe',
     path: '/link',
     name: 'Link',
+    locale: 'menu.link',
+
   },
   {
     id: 6,
@@ -56,6 +63,7 @@ const menuData = [
     path: '/link/iframe',
     name: 'LinkIframe',
     keepAlive: true,
+    locale: 'menu.link.iframe',
   },
   {
     id: 7,
@@ -66,6 +74,7 @@ const menuData = [
     path: '/link/antdv',
     name: 'LinkAntdv',
     keepAlive: true,
+    locale: 'menu.link.antdv',
   },
   {
     id: 8,
@@ -73,6 +82,7 @@ const menuData = [
     path: 'https://www.baidu.com',
     name: 'LinkExternal',
     title: '跳转百度',
+    locale: 'menu.link.external',
   },
   {
     id: 9,
@@ -83,6 +93,7 @@ const menuData = [
     path: '/menu',
     redirect: '/menu/menu1',
     name: 'Menu',
+    locale: 'menu.menu',
   },
   {
     id: 10,
@@ -92,6 +103,7 @@ const menuData = [
     path: '/menu/menu1',
     name: 'MenuMenu11',
     keepAlive: true,
+    locale: 'menu.menu.menu1',
   },
   {
     id: 11,
@@ -101,6 +113,7 @@ const menuData = [
     path: '/menu/menu2',
     name: 'MenuMenu12',
     keepAlive: true,
+    locale: 'menu.menu.menu2',
   },
   {
     id: 12,
@@ -110,6 +123,7 @@ const menuData = [
     name: 'MenuMenu1-1',
     title: '菜单1-1',
     component: 'RouteView',
+    locale: 'menu.menu.menu3',
   },
   {
     id: 13,
@@ -119,6 +133,7 @@ const menuData = [
     component: '/menu/menu-1-1/menu1',
     title: '菜单1-1-1',
     keepAlive: true,
+    locale: 'menu.menu3.menu1',
   },
   {
     id: 14,
@@ -128,6 +143,7 @@ const menuData = [
     component: '/menu/menu-1-1/menu2',
     title: '菜单1-1-2',
     keepAlive: true,
+    locale: 'menu.menu3.menu2',
   },
   {
     id: 15,
@@ -138,6 +154,7 @@ const menuData = [
     name: 'Access',
     parentId: null,
     icon: 'ClusterOutlined',
+    locale: 'menu.access',
   },
   {
     id: 16,
@@ -146,6 +163,7 @@ const menuData = [
     title: '通用权限',
     name: 'AccessCommon',
     component: '/access/common',
+    locale: 'menu.access.common',
   },
   {
     id: 17,
@@ -154,6 +172,7 @@ const menuData = [
     title: '普通用户',
     name: 'AccessUser',
     component: '/access/user',
+    locale: 'menu.access.user',
   },
 
 ]
@@ -166,6 +185,7 @@ export const accessMenuData = [
     title: '管理员',
     name: 'AccessAdmin',
     component: '/access/admin',
+    locale: 'menu.access.admin',
   },
 
 ]
