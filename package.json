@@ -6,9 +6,7 @@
   "author": "aibayanyu <aibayanyu@qq.com>",
   "repository": "antdv-pro/antdv-pro",
   "scripts": {
-    "dev:admin": "vite",
-    "dev": "run-p dev:admin dev:mock",
-    "dev:mock": "pnpm -F servers dev",
+    "dev": "vite",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "build": "vue-tsc && vite build",

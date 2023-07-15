@@ -1,7 +1,7 @@
 import { AxiosError } from 'axios'
 import router from '~/router'
 import { useMetaTitle } from '~/composables/meta-title'
-const allowList = ['/login', '/error', '/401', '/404', '/403']
+const allowList = ['/login', '/error', '/401', '/404', '/403', '/source']
 const loginPath = '/login'
 
 router.beforeEach(async (to, _, next) => {

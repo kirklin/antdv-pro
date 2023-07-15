@@ -10,6 +10,13 @@ export default [
     },
   },
   {
+    path: '/source',
+    component: () => import('~/pages/pay/index.vue'),
+    meta: {
+      title: '课程统计',
+    },
+  },
+  {
     path: '/401',
     name: 'Error401',
     component: () => import('~/pages/exception/401.vue'),
